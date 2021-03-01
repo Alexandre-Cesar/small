@@ -10,7 +10,7 @@ $db = "10";
 $conexao = mysqli_connect($servidor, $user, $senha,$db);
 
 #variavel com o comando de consultas ao banco de dados
-$query = "SELECT * TABELA";
+$query = "SELECT * CARROS";
 
 #realizar consulta atraves do comando mysqli_query e utilizando as variaveis de conexão e de consulta ao banco de dados 
 $consulta_cursos = mysqli_query($conexao,$query);
