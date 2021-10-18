@@ -31,14 +31,11 @@ if ($num1 && $num2) {
 <head>
 	<meta charset="utf-8">
 	<title>CALCULADORA</title>
-	<style type="text/css">
-		input, select{
-			padding: 10px; 
-			margin: 5px;}
-	</style>
+	<link rel = "stylesheet" href ="estilo.css">
 </head>
 <body>
-	<h1><?=$resul?></h1>
+
+	<div>
 <form method="post">
 <label>1°Numero: <input type="text" name="numero1"></label><br>
 <label>2°Numero: <input type="text" name="numero2"></label><br>
@@ -50,6 +47,8 @@ if ($num1 && $num2) {
            <option value="/">Divisão</option>
          </select>
        </label><br>
-        <input type="submit" name="btnCalcular" value="Calcular"></form>
+        <input type="submit" name="btnCalcular" value="Calcular" class = "calcular"></form>
+		<h1>Total: <?=$resul?></h1>
+	</div>
 </body>
 </html>
