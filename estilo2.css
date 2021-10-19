@@ -1,0 +1,58 @@
+                                /*estilo 2*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: rgb(108, 207, 78);
+    font-family: 'Roboto',sans-serif;
+    height: 400px;
+}
+
+div{
+    
+    width: 40%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin:15%;
+
+}
+                        /* botões*/
+select{
+    background-color: rgb(47, 163, 12) ;
+    color: white;
+    border: orangered solid  2px;
+    font-family: 'Roboto',sans-serif;
+    height: 50px;
+    width: 50%;
+    border-radius: 5%;
+    border: 10px black;
+}
+
+option:hover{
+    background-color: orange;
+}
+
+.enviar{
+
+    background-color: rgb(69, 241, 17);
+    height: 40px;
+    width: 60px;
+    border-radius: 5%;
+}
+.enviar:hover{
+
+    background-color: rgb(47, 163, 12);
+    color: white;
+}
+a {
+    text-decoration:none;
+    font-size: 26px;
+    color: black;
+
+}
+a:hover{
+    color: orangered;
+}
+a:selection{
+    color: black;
+}
+
